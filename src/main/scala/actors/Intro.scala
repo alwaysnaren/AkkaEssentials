@@ -35,11 +35,11 @@ object Intro extends App {
   counter ! Decrement(242233)
   counter ! Print
 
-  class BankAcc(name: String) extends Actor {
-    override def receive: Receive = {
-      case
-    }
-  }
+//  class BankAcc(name: String) extends Actor {
+//    override def receive: Receive = {
+//      case
+////    }
+//  }
 
   case class Deposit(n: Double)
   case class WithDraw(n: Double)
